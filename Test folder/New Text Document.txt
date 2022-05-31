@@ -1,2 +1,1 @@
-Hello new file added.
-Some text.
+Some test Text
