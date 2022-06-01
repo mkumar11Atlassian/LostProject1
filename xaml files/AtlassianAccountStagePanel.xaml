@@ -13576,6 +13576,10 @@
                 </Style>
             </StackPanel.Style>
 
+            <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingAtlassianAccountStageHeaderSuccessHeader}"
+                       Padding="5"
+                       Margin="0,4,0,0" TextOptions.TextFormattingMode="Ideal"/>
+					   
             <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingAtlassianAccountStageHeaderSuccessHeader}" 
                        Margin="0,4,0,0" TextOptions.TextFormattingMode="Ideal"/>
             
