@@ -70,7 +70,12 @@
             <StackPanel Grid.Row="0">
                 <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
                            TextOptions.TextFormattingMode="Ideal" Margin="0,4,0,0"/>
-                
+                 <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
+                           TextOptions.TextFormattingMode="Ideal" Margin="0,4,0,0"/> 
+                <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
+                           TextOptions.TextFormattingMode="Ideal" Margin="0,4,0,0"/> 
+                <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
+                           TextOptions.TextFormattingMode="Ideal" Margin="0,4,0,0"/>
                 <TextBlock Style="{StaticResource Paragraph}" TextOptions.TextFormattingMode="Ideal" Margin="0,28,0,0"
                            TextWrapping="Wrap" Text="{x:Static loc:Labels.OnboardingLoginAccountStageDescriptionLink}"/>
 
