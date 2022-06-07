@@ -68,7 +68,7 @@
             </Grid.Visibility>
 
             <StackPanel Grid.Row="0">
-                <TextBlock Style="{StaticResource Heading}" Margin="7" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
+                <TextBlock Style="{StaticResource Heading}" Margin="7" Margin="7" Margin="7" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
                            TextOptions.TextFormattingMode="Ideal" Margin="0,4,0,0"/>
                  <TextBlock Style="{StaticResource Heading}" Text="{x:Static loc:Labels.OnboardingRegistrationStageHeader}" 
                            TextOptions.TextFormattingMode="Ideal" Margin="0,4,0,0"/> 
