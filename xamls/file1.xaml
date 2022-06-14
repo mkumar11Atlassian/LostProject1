@@ -14,10 +14,10 @@
              d:DesignHeight="380"
              d:DesignWidth="460">
     <UserControl.Resources>
-        <Storyboard x:Key="SlideInLeftAndShow">
+        <Storyboard x:Key="SlideInLeftAndShow"    >
             <!-- Opacity -->
             <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetProperty="(UIElement.Opacity)">
-                <DiscreteDoubleKeyFrame KeyTime="0:0:0" Value="0" />
+                <DiscreteDoubleKeyFrame KeyTime="0:0:0"     Value="0" />
                 <SplineDoubleKeyFrame KeyTime="0:0:0.8" KeySpline="0.1,0.9 0.2,1.0" Value="1" />
             </DoubleAnimationUsingKeyFrames>
             <!-- Position -->
