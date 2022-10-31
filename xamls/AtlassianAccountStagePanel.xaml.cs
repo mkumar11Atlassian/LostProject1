@@ -31,7 +31,7 @@ namespace SourceTree.UI.View.Welcome
         {
             if (DomainDetails.Visibility == Visibility.Visible)
             {
-    			var x = 5;
+				var x = 5;
                 var focusScope = FocusManager.GetFocusScope(DomainURL);
                 FocusManager.SetFocusedElement(focusScope, DomainURL);
             }

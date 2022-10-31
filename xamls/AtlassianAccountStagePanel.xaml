@@ -16,14 +16,14 @@
     <UserControl.Resources>
         <Storyboard x:Key="SlideInLeftAndShow">
             <!-- Opacity -->
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.11" Storyboard.TargetProperty="(UIElement.Opacity)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.22" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <DiscreteDoubleKeyFrame KeyTime="0:0:0" Value="0" />
-                <SplineDoubleKeyFrame KeyTime="0:0:0.81" KeySpline="0.1,0.9 0.2,1.0" Value="1" />
+                <SplineDoubleKeyFrame KeyTime="0:0:0.82" KeySpline="0.1,0.9 0.2,1.0" Value="1" />
             </DoubleAnimationUsingKeyFrames>
             <!-- Position -->
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.11" Storyboard.TargetProperty="(StackPanel.RenderTransform).(TranslateTransform.X)">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00.22" Storyboard.TargetProperty="(StackPanel.RenderTransform).(TranslateTransform.X)">
                 <DiscreteDoubleKeyFrame KeyTime="00:00:00" Value="350" />
-                <SplineDoubleKeyFrame KeyTime="00:00:00.81" Value="0" KeySpline="0.1,0.9 0.2,1" />
+                <SplineDoubleKeyFrame KeyTime="00:00:00.82" Value="0" KeySpline="0.1,0.9 0.2,1" />
             </DoubleAnimationUsingKeyFrames>
             <!-- Show -->
             <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetProperty="(UIElement.Visibility)">
