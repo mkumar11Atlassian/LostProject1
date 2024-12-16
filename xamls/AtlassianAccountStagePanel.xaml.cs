@@ -34,9 +34,9 @@ namespace SourceTree.UI.View.Welcome
             Console.WriteLine("Enter the third number:");
             double num3 = Convert.ToDouble(Console.ReadLine());
             // Calculate the product of the three numbers
-            double product = num1 * num2 * num3;
+            //double product = num1 * num2 * num3;
             // Display the result
-            Console.WriteLine("The product of the three numbers is: " + product);
+            Console.WriteLine("The product of the three numbers is: " + num1 * num2 * num3/*product*/);
         }
 
         private void DomainDetails_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
