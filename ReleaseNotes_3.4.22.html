@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>SourceTree Release Notes</title>
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+  </head>
+  <body>
+    <article>
+      <div class="content">
+        <h1 class="page-title">Sourcetree release notes</h1>
+        <a name="version-3.4.22" />
+        <h2 class="page-sub-title">SourceTree 3.4.22 [08 February 2025]</h2>
+        <p class="p1">
+        </p>
+        <ul>
+          <li>Changes: Added setting to customize double-click behavior on files</li>
+          <li>Changes: Provide "Open in Sourcetree" context menu</li>
+          <li>Fixed: Allowed spaces in branch names</li>
+          <li>Fixed: Authentication fails on deleting passwd file</li>
+          <li>Fixed: Automatic resizing of Interactive Rebase window during commit squashing</li>
+          <li>Fixed: Changed Icon for collapsed Tags/Branches and Provide option in settings for Collapse</li>
+          <li>Fixed: Commit message formatting issue</li>
+          <li>Fixed: Enhanced "Continue Rebase" process with improved user experience</li>
+          <li>Fixed: Inconsistent naming in Sourcetree MSI installer and shortcuts</li>
+          <li>Fixed: Sourcetree overwrites .gitconfig without permission</li>
+          <li>Fixed: [VULN-1448908] Update Refit to 8.0.0</li>
+        </ul>
+        <a name="version-3.4.21">
+          <h2 class="page-sub-title">SourceTree 3.4.21 [20 November 2024]</h2>
+          <ul>
+            <li>Changes: Added option in settings to enable safe.barerepository in global git config file</li>
+            <li>Fixed: Can't see the tag or branch name properly when there are many tags/branches in the same commit location</li>
+            <li>Fixed: Crash when trying to update deleted submodule opened as separate repo</li>
+            <li>Fixed: Interactive rebase doesn't respect "core.commentchar" config</li>
+            <li>Fixed: Missing "Tags" details in the commit description</li>
+            <li>Fixed: [VULN-1403536] - Arbitrary code execution upon opening a local (not cloned) Mercurial repository</li>
+            <li>Fixed: [VULN-1403537] Running 'hg' commands via Terminal on Windows for a malicious Mercurial repository can lead to code execution</li>
+            <li>Fixed: [VULN-1413623] Sourcetree URL Handler Hardening</li>
+          </ul>
+        </a>
+        <a name="version-3.4.20">
+          <h2 class="page-sub-title">SourceTree 3.4.20 [17 September 2024]</h2>
+          <ul>
+            <li>Changes: Supporting git commit template feature</li>
+            <li>Changes: Upgrade to Git 2.46.0 and Git LFS to 3.5.1</li>
+            <li>Fixed: 'Push changes immediately' checkbox is disabled in No Staging View</li>
+            <li>Fixed: Arbitrary code execution vulnerability</li>
+            <li>Fixed: Interactive rebase always aborting when a merge is necessary</li>
+            <li>Fixed: Silent crash when creating a hotfix</li>
+            <li>Fixed: Sourcetree diff treats large .sql files as binary</li>
+            <li>Fixed: Windows Line breaks are replaced with Unix breaks on "Discard Hunk" click</li>
+          </ul>
+        </a>
+        <a name="version-3.4.19">
+          <h2 class="page-sub-title">SourceTree 3.4.19 [13 July 2024]</h2>
+          <ul>
+            <li>Changes: "Discard" context menu label changed to "Discard File Changes"</li>
+            <li>Changes: Feature of search by author in log histories</li>
+            <li>Changes: Upgraded to PuTTY 0.81</li>
+            <li>Fixed:  Local repositories' folder icon overlaps with it's name in low resolution screens. </li>
+            <li>Fixed: "Force Push" option is not working</li>
+            <li>Fixed: External diff option disabled from context menu for removed file</li>
+            <li>Fixed: Performance Improved for loading log histories </li>
+            <li>Fixed: Sourcetree crashes on startup sometimes </li>
+            <li>Fixed: Start menu shortcut missing for Sourcetree Enterprise version</li>
+            <li>Fixed: Unable to see all owners while creating a new repository</li>
+          </ul>
+        </a>
+        <a name="version-3.4.18">
+          <h2 class="page-sub-title">SourceTree 3.4.18 [19 April 2024]</h2>
+          <ul>
+            <li>Changes: Added feature to filter branches, tags, remotes, submodules, subtrees list by name.</li>
+            <li>Changes: Commit Size Indicator added in History View.</li>
+            <li>Changes: Display count of modified, staged and unstaged files.</li>
+            <li>Changes: Changed the default status of "Push all tags" and "Fetch all tags" option as unchecked.</li>
+            <li>Fixed: Version number for Sourcetree doesn't update in windows registry when running in-app version update.</li>
+            <li>Fixed: "Jump to commit" should be selected after dialog open.</li>
+            <li>Fixed: Local repositories does not update hint icons after action.</li>
+            <li>Fixed: Revert translation for German language corrected.</li>
+            <li>Fixed: Status-display overlays branch-name, rendering it unreadable.</li>
+          </ul>
+        </a>
+        <a name="version-3.4.17">
+          <h2 class="page-sub-title">SourceTree 3.4.17 [19 Feb 2024]</h2>
+          <ul>
+            <li>Fixed: Can't revert committed merge</li>
+            <li>Fixed: "Amend latest commit" checkbox is not ticked if replacing commit message is declined</li>
+            <li>Fixed: (Ctrl + Enter) shortcut doesn't work anymore (commit the changes)</li>
+            <li>Fixed: Tab name is different from the repository name for the bookmarks in a folder</li>
+            <li>Fixed: Commit merge conflict modified message periodically lost / reset to an earlier version</li>
+            <li>Fixed: Sourcetree and Sourcetree Enterprise show deleted feature branches from Bitbucket Server</li>
+            <li>Fixed: Clicking on a stash no longer shows the changed files or diffs</li>
+            <li>Changes: Update embedded Git to 2.43.0</li>
+          </ul>
+        </a>
+        <a name="version-3.4.16">
+          <h2 class="page-sub-title">SourceTree 3.4.16 [18 Dec 2023]</h2>
+          <ul>
+            <li>Fixed: Delete stash command is deleting the wrong stash</li>
+            <li>Fixed: Cherry pick ignore selected parent</li>
+            <li>Fixed: Dizzy animations on mouse hover need to be changed</li>
+            <li>Fixed: HTTP proxy settings is being deleted</li>
+            <li>Fixed: Adding Bitbucket Server account on Sourcetree is asking for app password</li>
+            <li>Fixed: Renaming tabs is broken | Tab name is different from the repository name in the bookmarks</li>
+            <li>Fixed: When trying to clone a repository, getting an error message of "Not a valid source path"</li>
+            <li>Fixed: Arbitrary code execution vulnerability on cloning Mercurial repository</li>
+            <li>Fixed: Potential 7z.exe vulnerability CVE-2022-29072</li>
+            <li>Fixed: Cannot Stage Selected Folders</li>
+            <li>Fixed: Items in Remotes =&gt; origin are not sorted properly</li>
+            <li>Fixed: Popup window focus lost on Pull, Push, Fetch, Stash, Branch, Merge, Discard, Tag button click</li>
+            <li>Fixed: Araxis Merge tool not found when installed for User only</li>
+            <li>Fixed: Application crashes when clicking on the 'commit message' text box</li>
+            <li>Changes: Remove/Delete the rejected push messages in Sourcetree</li>
+            <li>Changes: Make the list of tags more usable (e.g. descending sort)</li>
+            <li>Changes: Change "Discard" option from context menu to "Revert Changes" and also changed dialog box message</li>
+          </ul>
+        </a>
+        <a name="version-3.4.15">
+          <h2 class="page-sub-title">SourceTree 3.4.15 [27 Sept 2023]</h2>
+          <ul>
+            <li>Fixed: Sourcetree shuts down after just starting up</li>
+            <li>Fixed: Renaming bookmark's name changes the local repository name</li>
+            <li>Fixed: Context menu text not visible in dark mode for new tab window</li>
+            <li>Fixed: BitBucket Basic Authentication failing with Password (Password is obsolete now. Use <a href="https://support.atlassian.com/bitbucket-cloud/docs/create-an-app-password/">App Password</a>)</li>
+            <li>Fixed: Sourcetree fails to install or open due to MEF Composition Exception</li>
+            <li>Fixed: Fix Fatal error when viewing Remote repositories</li>
+            <li>Fixed: SourceTree unusable on startup ('ssh-agent' failed with code -1: System.NullReferenceException)</li>
+            <li>Fixed: Sourcetree tab header too small and close button covers repository name</li>
+            <li>Fixed: Argument injection vulnerability within URL handler leading to RCE</li>
+            <li>Fixed: Arbitrary code execution vulnerability on opening maliciously crafted folder</li>
+            <li>Changes: Display the creation date along with stash name</li>
+            <li>Changes: Added checkbox to include untracked files when stashing</li>
+            <li>Changes: PULL command fetch all tags command parameter integrated with fetch all tags setting</li>
+            <li>Changes: Enhanced repo tab header tooltip to show the full path, name, current branch and repository type for repository tabs</li>
+          </ul>
+        </a>
+        <a name="version-3.4.14">
+          <h2 class="page-sub-title">SourceTree 3.4.14 [30 June 2023]</h2>
+          <ul>
+            <li>Fixed: Crash when refreshing repository and account details</li>
+            <li>Fixed: Sourcetree fails to install or open when MEF is unable to satisfy few imports</li>
+            <li>Fixed: Remote button misbehaving for few Urls while opening the repository in browser</li>
+            <li>Fixed: Sourcetree repository tab width automatically adjusted with repository name is bad with short names in Capital letters</li>
+            <li>Changes: Added new option inside "Tools - Options - Git" to set the default behavior of "Fetch all tags"</li>
+          </ul>
+        </a>
+        <a name="version-3.4.13">
+          <h2 class="page-sub-title">SourceTree 3.4.13 [31 May 2023]</h2>
+          <ul>
+            <li>Fixed: Vulnerability in Microsoft.Data.OData package used by Sourcetree</li>
+            <li>Fixed: Vulnerability in Newtonsoft.Json package used by Sourcetree. Updated Newtonsoft.Json 13.0.1</li>
+            <li>Fixed: Vulnerability in Nancy package used by Sourcetree. Updated Nancy 1.4.4 and Nancy.Hosting.Self 1.4.1</li>
+            <li>Fixed: Vulnerability in Sourcetree - Remote code execution via protocol handler in Sourcetree</li>
+            <li>Fixed: OAuth token expire and does not refresh automatically</li>
+            <li>Fixed: Red exclamation symbol over "Remote" button and error accessing the content of the repository in web browser</li>
+            <li>Fixed: Crash when cloning empty remote repository from GitHub</li>
+            <li>Fixed: Crash when cloning repository from Bitbucket</li>
+            <li>Fixed: Stash diff view only show one file and multiple file selection not working</li>
+            <li>Changes: Sourcetree repository tab width should automatically adjust with repository name</li>
+          </ul>
+        </a>
+        <a name="version-3.4.12">
+          <h2 class="page-sub-title">SourceTree 3.4.12 [03 March 2023]</h2>
+          <ul>
+            <li>Update Git to 2.39.1 (CVE-2022-41903 and CVE-2022-23521)</li>
+            <li>Changes: Add Personal Access Token support for Authentication for GitHub and remove Basic Authentication</li>
+            <li>Changes: Add Personal Access Token support for GitHub Enterprise</li>
+            <li>Fixed: Windows Default context menu for TextBox are not visible in dark theme of Sourcetree</li>
+            <li>Fixed: Sort remote repositories list alphabetically</li>
+            <li>Fixed: Sort remote repositories dropdown user groupings list alphabetically</li>
+            <li>Fixed: Sourcetree installer Failed due to System.Management.ManagementException</li>
+            <li>Fixed: Error when creating pull request from SourceTree for Bitbucket</li>
+            <li>Fixed: Repository cloning failure issue for GitLab</li>
+          </ul>
+        </a>
+        <a name="version-3.4.11">
+          <h2 class="page-sub-title">SourceTree 3.4.11 [07 Dec 2022]</h2>
+          <ul>
+            <li>Changes: Updated Bitbucket Cloud APIs due to deprecation in /2.0/teams and /2.0/users endpoints. (<a href="https://developer.atlassian.com/cloud/bitbucket/bitbucket-api-teams-deprecation/">See more details</a>)</li>
+            <li>Changes: Renewed and updated internal code signing certificate</li>
+            <li>Fixed: Sourcetree is not launching after update</li>
+            <li>Fixed: Bitbucket User Workspaces not visible under Remote Repositories tab</li>
+            <li>Fixed: Bitbucket Server remote repositories dropdown is blank for Organization Repos</li>
+            <li>Fixed: GetWindowsVersion() is crashing in Win 11</li>
+            <li>Fixed: Moved 'Amend latest commit' checkbox after 'Push changes immediately' checkbox</li>
+          </ul>
+        </a>
+        <a name="version-3.4.10">
+          <h2 class="page-sub-title">SourceTree 3.4.10 [25 Sept 2022]</h2>
+          <ul>
+            <li>Fixed: Sourcetree failed to update from 3.4.9 to latest version</li>
+            <li>Upgrade to PuTTY 0.77</li>
+            <li>Internal upgrade of Nuget packages</li>
+            <li>Fixed: CVE-2022-24826 "Git LFS vulnerability"</li>
+            <li>Fixed: Word "characters" doesn't change color after unchecking the checkbox "Use fixed-width font"</li>
+            <li>Fixed: Unable to read repositories for the user from the remote host</li>
+            <li>Fixed: Path to external diff tool (P4Merge) empty in options dialog opened first time after startup and Ctrl+D does not work</li>
+            <li>Fixed: External Merge tool does not launch</li>
+            <li>Fixed: Restore the amend checkbox and amending a commit should not involve a popup</li>
+            <li>Fixed: Repair stash External Diff when diff tool is custom</li>
+            <li>Fixed: Sourcetree 3.4.9 Crashes Immediately and Doesn't Install (Windows 10)</li>
+            <li>Fixed: Sourcetree 3.4.9 installer crashes at splash screen</li>
+            <li>Fixed: Dutch language translation for Pull-Request corrected</li>
+          </ul>
+          <p class="p1">Known Issues</p>
+          <ul>
+            <li>Sourcetree update is not working in 3.4.9</li>
+          </ul>
+        </a>
+        <a name="version-3.4.9">
+          <h2 class="page-sub-title">SourceTree 3.4.9 [23 May 2022]</h2>
+          <ul>
+            <li>Upgraded to Git 2.36.0</li>
+            <li>Upgraded to Git LFS v3.1.4</li>
+            <li>CVE-2018-1002206 Upgraded to SharpCompress 31.0.0</li>
+            <li>Bitbucket LFS media adapter no longer supported</li>
+            <li>Fixed: Search control Clear button size too small and very hard to click and search icon not visible in dark mode</li>
+            <li>Fixed: In a fresh repository without any push and pull history, if user tries to search, app crashes</li>
+            <li>Fixed: Update Notification Dialog unreadable in Dark-mode</li>
+            <li>Fixed: Arbitrary command injection vulnerability</li>
+          </ul>
+        </a>
+        <a name="version-3.4.8">
+          <h2 class="page-sub-title">SourceTree 3.4.8 [03 March 2022]</h2>
+          <ul>
+            <li>Upgrade to .Net Framework 4.8</li>
+            <li>Upgrade to Git 2.35.0</li>
+            <li>Upgrade to PuTTY 0.76</li>
+            <li>Upgrade to Log4net 2.0.14</li>
+            <li>Fixed: Removing repository from bookmark after filter(search) was deleting the previous selected repo also</li>
+            <li>Fixed: Crash when cloning empty repository</li>
+            <li>Fixed: Bitbucket deprecating API /2.0/teams/ endpoints</li>
+            <li>Fixed: "Push changes immediately to [branch]" checkbox enabled for unstaged files</li>
+            <li>Fixed: In Dark theme, "Edit Password" dialog box content is unreadable</li>
+          </ul>
+        </a>
+        <a name="version-3.4.7">
+          <h2 class="page-sub-title">SourceTree 3.4.7 [15 November 2021]</h2>
+          <ul>
+            <li>Display special characters known as Unicode bidirectional characters.<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42574">CVE-2021-42574</a></li>
+            <li>Fixed: "Open current version" menu option from a deleted file not disabled in the file contextual menu.</li>
+            <li>Fixed: Not transitioning to the commit history view when checkbox "After committing, stay in commit dialog..." is unchecked.</li>
+            <li>Fixed: Archive file path validation to ensure correct file path and extension are used.</li>
+          </ul>
+        </a>
+        <a name="version-3.4.6">
+          <h2 class="page-sub-title">SourceTree 3.4.6 [13 August 2021]</h2>
+          <ul>
+            <li>Fixed Repo search issue</li>
+            <li>Fixed Renamed file deletes if revert to previous name</li>
+            <li>Fixed Remote branches empty when pushing</li>
+            <li>Fixed Untracked branches cannot be pushed</li>
+            <li>Fixed Repository Settings window does not show full information if it's opened on the small screen</li>
+            <li>Fixed Deleted files are not shown as removed during merge and don't get removed on resolve</li>
+            <li>Fixed SpellChecker Error comes after it disabled in options</li>
+            <li>Fixed Focus is not set on commit message textbox</li>
+            <li>Fixed Footer of "Download embedded Git?" window has footer with wrong color after switching from Dark to Light theme</li>
+            <li>Fixed AraxisMerge tool changes to Custom after selecting tool manually if diff/merge commands are not filled by default</li>
+            <li>Fixed Name of branches and tags are unreadable in high contrast mode with a dark window background</li>
+            <li>Fixed Unreadable text in high contrast mode</li>
+          </ul>
+        </a>
+        <a name="version-3.4.5">
+          <h2 class="page-sub-title">SourceTree 3.4.5 [11 May 2021]</h2>
+          <ul>
+            <li>Fixed Refresh when application is not in focus</li>
+            <li>Fixed Git bash terminal not opening from Git repository</li>
+            <li>Fixed Sourcetree crashing on adding Gitlab CE/EE account</li>
+            <li>Added max width for split panels to not get dragged all the way</li>
+            <li>Fixed patches being created in wrong order</li>
+            <li>Fixed Sourcetree closing pageant on exit even if it hadn't been started by it</li>
+            <li>Fixed "New Folder" not creating nested folders on Bookmarks pane</li>
+            <li>Fixed Sourcetree crashing on swithing to Remote tab</li>
+            <li>Fixed "Fetch all tags" unticked still fetches all tags</li>
+            <li>Fixed endless "git log failed" dialogs popping up</li>
+            <li>Fixed staging modified files with paths longer than 260 characters stages the file as 'Removed'</li>
+            <li>Fixed Sourcetree closing on cancelling the checking out branch from browser</li>
+            <li>Fixed clone tab not selecting default branch when it isn't master</li>
+            <li>Fixed Sourcetree crashing if launched by a non-admin while another user is running PAgent</li>
+            <li>Fixed Git LFS prompt showing up everytime on opening a repo</li>
+            <li>Fixed merge conflict not resolving on deleting files.</li>
+            <li>General refactoring and removing code smells</li>
+          </ul>
+        </a>
+        <a name="version-3.4.4">
+          <h2 class="page-sub-title">SourceTree 3.4.4 [10 March 2021]</h2>
+          <ul>
+            <li>Updated embedded git version to 2.30.2 to address security issue</li>
+            <li>General refactoring</li>
+          </ul>
+        </a>
+        <a name="version-3.4.3">
+          <h2 class="page-sub-title">SourceTree 3.4.3 [08 February 2021]</h2>
+          <ul>
+            <li>Security fix for embedded git lfs</li>
+            <li>Fixed Sourcetree hanging on scrolling down Bookmarks view</li>
+            <li>Fixed ssh-agent taking too much CPU</li>
+            <li>Fixed failing authentication for Azure devops</li>
+            <li>Fixed LFS popup re-appearing everytime</li>
+            <li>Fixed issue of error message showing up when creating a pull request</li>
+            <li>Fixed Sourcetree crashing on editing remote settings</li>
+            <li>Fixed Optional integration settings not being saved</li>
+            <li>Fixed Launch ssh agent option in Tools not doing any operation</li>
+            <li>Fixed continue interactive rebase failing</li>
+            <li>Fixed custom actions not performing any operation</li>
+            <li>Fixed Sourcetree crashing on chekout/clone from bitbucket</li>
+            <li>Fixed Commit text links not being saved</li>
+          </ul>
+        </a>
+        <a name="version-3.4.2">
+          <h2 class="page-sub-title">SourceTree 3.4.2 [07 January 2021]</h2>
+          <ul>
+            <li>Fixed issue of Sourcetree hanging on scrolling down diff view panel</li>
+            <li>Fixed issue of Interactive Rebase window being empty</li>
+            <li>Fixed issue of bookmarks not sorted by name.</li>
+            <li>Fixed issue of swapping bookmarks not changing position on Bookmarks tab</li>
+            <li>Fixed issue of LFS pop-up not appearing on Clone for LFS repo</li>
+            <li>Fixed Unstage All and Stage All butons enabling and disabling simultaneously issue</li>
+            <li>Fixed message on diff for large bin files being shown</li>
+          </ul>
+        </a>
+        <a name="version-3.4.1">
+          <h2 class="page-sub-title">SourceTree 3.4.1 [31 December 2020]</h2>
+          <ul>
+            <li>Security fix for a BASM vulnerability around account details stored in Vault</li>
+          </ul>
+        </a>
+        <a name="version-3.4.0">
+          <h2 class="page-sub-title">SourceTree 3.4.0 [01 December 2020]</h2>
+          <ul>
+            <li>Security fix for embedded git lfs</li>
+            <li>Fixed path not fitting in window when extracting</li>
+            <li>Fixed incorrect naming of blame functionality</li>
+            <li>Fixed "All Branches / Current Branch" dropdown not remembering choices</li>
+          </ul>
+        </a>
+        <a name="version-3.3.9">
+          <h2 class="page-sub-title">SourceTree 3.3.9 [26 May 2020]</h2>
+          <ul>
+            <li>Security fix for embedded Git</li>
+            <li>Added org listing to remotes page to reduce network calls for hosts with many orgs</li>
+            <li>Fixed issue with installer not creating a shortcut</li>
+            <li>Fixed issue with installer not checking for updates</li>
+          </ul>
+          <h2 class="page-sub-title">SourceTree 3.3.8 [20 Jan 2020]</h2>
+          <ul>
+            <li>Fixed file list not refreshing in first re-opened tab</li>
+            <li>Fixed crash when double clicking file</li>
+            <li>Fixed duplicate file appearing when checking a file</li>
+          </ul>
+          <h2 class="page-sub-title">SourceTree 3.3.7 [8 Jan 2020]</h2>
+          <ul>
+            <li>Update version of embedded git for security</li>
+          </ul>
+          <h2 class="page-sub-title">SourceTree 3.3.6 [22 November 2019]</h2>
+          <ul>
+            <li>Fixed new branches in the push dialog not setting the remote branch name</li>
+            <li>Fixed the create patch screen allowing split view</li>
+          </ul>
+          <h2 class="page-sub-title">SourceTree 3.3.4 [28 October 2019]</h2>
+          <ul>
+            <li>Add an option "Open in Sourcetree" to context menu at Windows</li>
+            <li>Improved the bookmarks sidebar by adding mouse-over colors, DVCS icons, and showing if the repo is open</li>
+            <li>Added a new repository details window</li>
+            <li>Added better copy/paste support for the log view</li>
+            <li>Added a new "$BRANCH" parameter for custom actions</li>
+            <li>Flow actions can now only be started for the latest dev branch</li>
+            <li>Fixed a regression in disallowing duplicate folder names</li>
+            <li>Fixed push indicator not being displayed after commit</li>
+            <li>Fixed git-flow versions with 'dev' in the name not being parsed</li>
+            <li>Fixed git-flow hotfix branch not defaulting to master</li>
+            <li>Fixed crash in the local repo listing</li>
+            <li>Fixed search on the remote repo listing</li>
+            <li>Fixed custom actions dropping the first argument</li>
+            <li>Fixed a performance issue when changing the file list filter in a large repo</li>
+            <li>Fixed showing an empty menu for recent commits if there isn't any</li>
+            <li>Fixed the "Confirm delete" dialog overflowing off the screen</li>
+            <li>Fixed scrollbar not showing on the "Create" repository tab</li>
+            <li>Fixed repository names not updating when being renamed in the tab it's opened in</li>
+            <li>Fixed repo list sometimes not loading</li>
+            <li>Fixed text overlap in the "Edit Hosting Account" dialog</li>
+            <li>Fixed allowing the ".hgignore" file to be ignored</li>
+            <li>Fixed "Stop Tracking files" option being allowed to be pressed even if the file wasn't tracked</li>
+            <li>Fixed a case where system Git couldn't find Git Flow</li>
+            <li>Fixed a case where the diff view wouldn't show the file contents for deleted files</li>
+            <li>Fixed a crash caused by not having a default author name set</li>
+            <li>Fixed annoying chained auth prompts for Git and Mercurial when the repo was being identified</li>
+            <li>Fixed not being able to remove an added file in the staged files list</li>
+            <li>Fixed a case where embedded Git version wouldn't display the correct version</li>
+            <li>Fixed all files being set to the recycling bin, when they should have just been deleted</li>
+            <li>Fixed "Push" dialog not showing branches if Git was older than v2.13.0</li>
+            <li>Fixed allowing repos with the same path to be added as bookmarks</li>
+            <li>Fixed custom actions not allowing $FILE and $SHA for files</li>
+            <li>Fixed update check failed dialogs showing during welcome wizard</li>
+            <li>Fixed a bugsplat detected crash</li>
+            <li>Fixed setup wizard not showing git download size</li>
+          </ul>
+        </a>
+      </div>
+    </article>
+  </body>
+</html>
